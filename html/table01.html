@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Table</title>
+	<style>
+		table,
+		th,
+		td {
+			border: 1px solid black;
+			border-collapse : collapse;
+		}
+	</style>
+</head>
+
+
+<body>
+	셀 만들기
+	<table>
+		<tr>
+			<td>1</td>
+			<td>한석봉</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>홍길동</td>
+		</tr>
+	</table>
+
+	<br> 셀 한번에 만들기
+	<!-- table>tr*2>td*2 -->
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	
+	<br> 셀 나누기 <br>
+	
+	<table>
+		<tr>
+			<td rowspan="4">세로 셀 병합</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td><p>4</p></td>
+		</tr>
+		<tr>
+			<td><p>5</p></td>
+		</tr>
+		<tr>
+			<td colspan="2">가로 셀 병합</td>
+		</tr>
+	</table>
+	
+</body>
+
+</html>
