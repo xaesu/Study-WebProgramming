@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Table</title>
+	<style>
+		table,
+		th,
+		td {
+			border: 1px solid black;
+			border-collapse : collapse;
+		}
+	</style>
+</head>
+
+<body>
+    01. <br><br>
+    <table>
+        <tr>
+            <td rowspan="4">1</td>
+            <td>2</td>
+        </tr>
+				<tr>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td colspan="2"><center>6</center></td>
+				</tr>
+    </table>
+
+		<br><br><br>
+
+		02. <br><br>
+		<table>
+			<tr>
+				<td colspan="2">2</td>
+				<td rowspan="5"><center>7</center></td>
+			</tr>
+			<tr>
+				<td rowspan="3">1</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td colspan="2"><center>6</center></td>
+			</tr>
+		</table>
+
+		<br><br><br>
+
+		03. <br><br>
+		<table>
+			<tr>
+				<td colspan="2"><center>1</center></td>
+				<td rowspan="2"><center>2</center></td>
+			</tr>
+			<tr>
+				<td rowspan="2"><center>4</center></td>
+				<td><img src="https://blog.kakaocdn.net/dn/euksHz/btrkikzsvnn/p5AdNUCmxGuZbnu4Vq98Y0/img.webp" width = 50> <br><br></td>
+			</tr>
+			<tr>
+				<td colspan="2"><center>3</center></td>
+			</tr>
+		</table>
+
+		04. <br><br>
+		<table>
+			<tr>
+				<td bgcolor="red", rowspan="2"><center>4</center></td>
+				<td bgcolor="yellow", colspan="2"><center>1</center></td>
+			</tr>
+			<tr>
+				<td><img src="https://blog.kakaocdn.net/dn/euksHz/btrkikzsvnn/p5AdNUCmxGuZbnu4Vq98Y0/img.webp" width = 50> <br><br></td>
+				<td bgcolor="lightgreen", rowspan="2"><center>2</center></td>
+			</tr>
+			<tr>
+				<td bgcolor="blue", colspan="2"><center>3</center></td>
+			</tr>
+		</table>
+
+</body>
+
+</html>
